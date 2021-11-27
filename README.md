@@ -1,5 +1,6 @@
 # Seguro Peludo - Clone page
-This is a NextJS + React Boostrap + Sass project. The project consist on a clone page for the [Seguro Peludo](https://www.seguropeludo.com.co/) page.
+
+This is a NextJS + Sass project. The project consist on a clone page for the [Seguro Peludo](https://www.seguropeludo.com.co/) page.
 
 ## What do you need?
 

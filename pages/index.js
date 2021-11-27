@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Button from 'react-bootstrap/Button';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
           content="Estar preparado es la mejor opción para proteger la vida de aquellos peluditos a los que tanto amamos ¡Cotiza ya!"
         />
       </Head>
-      <Button variant="primary">Soy un botón</Button>
+      <Navbar />
     </>
   );
 }
