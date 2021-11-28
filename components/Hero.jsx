@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from '../styles/Hero.module.scss';
-import seguroPeludoLogo from '../assets/images/seguro_peludo_logo.svg';
 import ArrowButton from './ArrowButton';
 
 const Hero = () => {
@@ -12,7 +11,9 @@ const Hero = () => {
         <div className={styles.container}>
           <Image
             className={styles.image}
-            src={seguroPeludoLogo}
+            src="/assets/images/seguro_peludo_logo.svg"
+            width={350}
+            height={154}
             alt="¡Protege a los que más amas!"
           />
           <input

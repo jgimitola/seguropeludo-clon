@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import Why from '../components/Why';
 
 import styles from '../styles/page-styles/Home.module.scss';
 
@@ -21,10 +22,7 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-
-      <section id="por-que">
-        
-      </section>
+      <Why />
 
       <section id="planes"></section>
 

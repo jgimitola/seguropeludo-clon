@@ -6,8 +6,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import styles from '../styles/Navbar.module.scss';
 
-import segurosMundialLogo from '../assets/images/seguros_mundial_logo.svg';
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +27,12 @@ const Navbar = () => {
         <li className={(styles.navItem, styles.navBrand)}>
           <Link href="/">
             <a>
-              <Image src={segurosMundialLogo} alt="Logo Seguros Mundial" />
+              <Image
+                src="/assets/images/seguros_mundial_logo.svg"
+                width={110}
+                height={23}
+                alt="Logo Seguros Mundial"
+              />
             </a>
           </Link>
         </li>
