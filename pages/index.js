@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 
 import styles from '../styles/page-styles/Home.module.scss';
 
@@ -32,6 +33,8 @@ export default function Home() {
       <section id="blog"></section>
 
       <section id="comenzar"></section>
+
+      <Footer />
     </>
   );
 }
