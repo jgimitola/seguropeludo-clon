@@ -6,13 +6,11 @@ import styles from '../styles/ArrowButton.module.scss';
 
 const ArrowButton = ({ up, to, className, ...rest }) => {
   return (
-    <>
-      <Link href={to}>
-        <a className={styles.button} {...rest}>
-          <FontAwesomeIcon icon={up ? faChevronUp : faChevronDown} size="lg" />
-        </a>
-      </Link>
-    </>
+    <Link href={to}>
+      <a className={styles.button} {...rest}>
+        <FontAwesomeIcon icon={up ? faChevronUp : faChevronDown} size="lg" />
+      </a>
+    </Link>
   );
 };
 

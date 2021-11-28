@@ -22,7 +22,9 @@ export default function Home() {
       <Navbar />
       <Hero />
 
-      <section id="por-que"></section>
+      <section id="por-que">
+        
+      </section>
 
       <section id="planes"></section>
 
