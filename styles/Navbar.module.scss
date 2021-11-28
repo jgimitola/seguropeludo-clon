@@ -1,17 +1,18 @@
+@import 'colors';
+@import 'mixins';
+
 .nav {
   position: sticky;
   top: 0;
   right: 0;
 
-  background-color: red;
   height: 3.51rem;
 }
 
 .nav_Ul {
-  list-style-type: none;
-  margin: 0 1rem;
-  padding: 0;
+  @include reset-list;
 
+  margin: 0 1rem;
   height: 100%;
 
   display: flex;
@@ -23,13 +24,64 @@
 }
 
 .navItem {
+  @include nunito-bold;
+
   margin-left: 2rem;
-  font-family: 'Nunito Sans';
-  font-weight: 700;
+  color: $medium-blue;
 }
 
-.navItem:nth-child(2) {
+.contactButton {
+  @extend .navItem;
+  @include nunito-regular;
+
+  border: 2px solid $medium-blue;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+}
+
+.navItem:nth-child(3) {
   margin-left: auto;
+}
+
+.mobileMenuButton {
+  position: absolute;
+  color: $medium-blue;
+  cursor: pointer;
+}
+
+.mobileMenu {
+  @include reset-list;
+  @include nunito-bold;
+
+  width: 19rem;
+  position: fixed;
+  top: 3.5rem;
+  left: 0;
+  background-color: white;
+  box-shadow: 1px 2px 4px $gray-borders;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobileNavItem {
+  color: $dark-blue-text;
+  padding: 0.5rem 0;
+}
+
+.mobileNavItem > a {
+  margin-left: 1rem;
+}
+
+.mobileNavItem:not(:last-child) {
+  border-bottom: 1px solid $gray-borders;
+}
+
+@media (min-width: 1024px) {
+  .mobileMenuButton {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {

@@ -1,0 +1,20 @@
+@mixin reset-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin nunito-bold {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+}
+
+@mixin nunito-regular {
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+}
+
+@mixin nunito-ligth {
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+}

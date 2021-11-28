@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
 
           <link
-            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&family=Raleway:wght@500&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Raleway:wght@500&display=swap"
             rel="stylesheet"
           />
         </Head>
