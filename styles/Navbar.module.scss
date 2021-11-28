@@ -7,6 +7,7 @@
   right: 0;
 
   height: 3.51rem;
+  background-color: white;
 }
 
 .nav_Ul {
@@ -36,6 +37,16 @@
 
   border: 2px solid $medium-blue;
   border-radius: 30px;
+  padding: 0.4rem 1rem;
+}
+
+.startButton {
+  @extend .navItem;
+  @include nunito-regular;
+
+  color: white;
+  background-color: $green-buttons;
+  border-radius: 8px;
   padding: 0.4rem 1rem;
 }
 
