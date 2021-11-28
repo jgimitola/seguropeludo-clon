@@ -47,9 +47,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="#mas-info">
-            <a>¿Quieres más info?</a>
-          </Link>
+          <a
+            href="https://www.seguropeludo.com.co/pdf/esto_es_lo_que_debes_saber.pdf"
+            rel="noreferrer"
+            target="_blank"
+          >
+            ¿Quieres más info?
+          </a>
         </li>
         <li className={styles.navItem}>
           <Link href="#club">
@@ -57,9 +61,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="#blog">
-            <a>Blog</a>
-          </Link>
+          <a href="https://mundoseguro.co/">Blog</a>
         </li>
         <li className={(styles.navItem, styles.startButton)}>
           <Link href="#comenzar">
@@ -84,9 +86,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.mobileNavItem}>
-          <Link href="#mas-info">
-            <a>¿Quieres más info?</a>
-          </Link>
+          <a
+            href="https://www.seguropeludo.com.co/pdf/esto_es_lo_que_debes_saber.pdf"
+            rel="noreferrer"
+            target="_blank"
+          >
+            ¿Quieres más info?
+          </a>
         </li>
         <li className={styles.mobileNavItem}>
           <Link href="#club">
@@ -94,9 +100,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.mobileNavItem}>
-          <Link href="#blog">
-            <a>Blog</a>
-          </Link>
+          <a href="https://mundoseguro.co/">Blog</a>
         </li>
         <li className={styles.mobileNavItem}>
           <Link href="#comenzar">

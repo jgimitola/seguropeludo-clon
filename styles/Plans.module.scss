@@ -1,0 +1,92 @@
+@import 'colors';
+@import 'mixins';
+
+.section {
+  background-color: $light-blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 750px;
+}
+
+.title {
+  @include nunito-bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.message {
+  @include nunito-regular;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.planPrices {
+  @include nunito-regular;
+  width: 100%;
+  border-radius: 8px;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: white;
+  margin-top: 3rem;
+  font-size: 24px;
+
+  & > tr:first-child {
+    background-color: $footer-color;
+    color: white;
+  }
+}
+
+.comparePlans {
+  @include nunito-regular;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+
+  & tr {
+    height: 3rem;
+  }
+
+  & th {
+    background-color: $footer-color;
+    color: white;
+  }
+}
+
+.sticker {
+  margin: 0 auto;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin: 4rem 0;
+}
+
+.button {
+  @include yellow-button;
+  margin: 2rem 0;
+}
+
+@media (max-width: 756px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 320px;
+  }
+
+  .comparePlans, .planPrices {
+    font-size: 12px;
+  }
+
+}

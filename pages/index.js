@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import Why from '../components/Why';
+import Plans from '../components/Plans';
 
 import styles from '../styles/page-styles/Home.module.scss';
 
@@ -23,14 +24,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Why />
-
-      <section id="planes"></section>
-
-      <section id="mas-info"></section>
+      <Plans />
 
       <section id="club"></section>
-
-      <section id="blog"></section>
 
       <section id="comenzar"></section>
 
