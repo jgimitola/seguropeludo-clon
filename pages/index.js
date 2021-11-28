@@ -1,6 +1,9 @@
 import Head from 'next/head';
 
 import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+
+import styles from '../styles/page-styles/Home.module.scss';
 
 export default function Home() {
   return (
@@ -16,34 +19,19 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      
-      <section id="hero">
+      <Hero />
 
-      </section>
+      <section id="por-que"></section>
 
-      <section id="por-que">
-        
-      </section>
+      <section id="planes"></section>
 
-      <section id="planes">
-        
-      </section>
+      <section id="mas-info"></section>
 
-      <section id="mas-info">
-        
-      </section>
+      <section id="club"></section>
 
-      <section id="club">
-        
-      </section>
+      <section id="blog"></section>
 
-      <section id="blog">
-        
-      </section>
-
-      <section id="comenzar">
-        
-      </section>
+      <section id="comenzar"></section>
     </>
   );
 }

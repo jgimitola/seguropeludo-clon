@@ -18,3 +18,23 @@
   font-family: 'Nunito Sans';
   font-weight: 300;
 }
+
+@mixin raleway-semibold {
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+
+@mixin yellow-button {
+  @include raleway-semibold;
+  width: 100%;
+  padding: 0.9rem 0;
+  background-color: $yellow-buttons;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  color: $black-text;
+  font-size: 14px;
+}
