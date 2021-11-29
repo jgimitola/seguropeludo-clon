@@ -5,8 +5,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import Why from '../components/Why';
 import Plans from '../components/Plans';
-
-import styles from '../styles/page-styles/Home.module.scss';
+import Club from '../components/Club';
 
 export default function Home() {
   return (
@@ -25,11 +24,8 @@ export default function Home() {
       <Hero />
       <Why />
       <Plans />
-
-      <section id="club"></section>
-
+      <Club />
       <section id="comenzar"></section>
-
       <Footer />
     </>
   );
